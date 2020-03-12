@@ -3,14 +3,14 @@
 @charset "UTF-8";
 /* Body */
 body {
-	font-family: source-sans-pro;
-	background-color: #f2f2f2;
-	margin-top: 0px;
-	margin-right: 0px;
-	margin-bottom: 0px;
-	margin-left: 0px;
-	font-style: normal;
-	font-weight: 200;
+    font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+    background-color: #f2f2f2;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    font-style: normal;
+    font-weight: 100;
 	
 }
 /* Container */
@@ -23,13 +23,16 @@ body {
 }
 /* Navigation */
 header {
-	width: 100%;
-	height: 5%;
-	border-bottom: 1px solid #2C9AB7;
-	padding-bottom: 5px;
-	padding-top: 3px;
-	background: #484848;
-	opacity: .65;
+    width: 100%;
+    height: 5%;
+    padding-bottom: 5px;
+    padding-top: 3px;
+    background: #E74000;
+    opacity: .65;
+}
+
+header  ul li:hover{
+	font-size: 16px; 
 }
 .logo {
     color: #fff;
@@ -37,7 +40,7 @@ header {
     text-align: center;
     width: 31%;
     float: left;
-    margin-top: 17px;
+    margin-top: 15px;
     margin-right: 0;
     margin-left: 0;
     margin-bottom: 0;
@@ -171,7 +174,7 @@ ul li:hover a {
     background-position: 48% 30%;
 }
 .banner2 {
-    background-image: url("../images/IMG-20191023-WA0002.jpg");
+    background-image: url(../images/IMG-20191023-WA0009.jpg);
     height: 500px;
     background-attachment: fixed;
     background-size: cover;
@@ -408,7 +411,7 @@ nav ul li {
 	float: none;
 	overflow: auto;
 	display: inline-block;
-	background: #484848;
+	background: #000;
 	opacity: .45;
 }
 header nav ul {
