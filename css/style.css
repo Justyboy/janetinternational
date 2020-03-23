@@ -4,14 +4,13 @@
 /* Body */
 body {
     font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
-    background-color: #f2f2f2;
+    background-color: #FFFFFF;
     margin-top: 0px;
     margin-right: 0px;
     margin-bottom: 0px;
     margin-left: 0px;
     font-style: normal;
-    font-weight: 100;
-	
+    font-weight: 100;	
 }
 /* Container */
 .container {
@@ -28,14 +27,14 @@ header {
     height: 6%;
     padding-bottom: 5px;
     padding-top: 5px;
-	background-color: rgba(0,0,0,0.70);
+    background-color: rgba(58,58,58,0.63);
 }
 
 header  ul li:hover{
 	font-size: 16px; 
 }
 .logo {
-    color: #00A541;
+    color: #FDFDFD;
     font-weight: 1200;
     text-align: center;
     width: 31%;
@@ -48,6 +47,7 @@ header  ul li:hover{
     display: block;
     padding-left: 21px;
     font-size: 28px;
+    text-shadow: 2px 0px rgba(0,74,23,1.00);
 }
 nav {
     float: right;
@@ -184,7 +184,7 @@ ul li:hover a {
     background-repeat: no-repeat;
     background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('../images/IMG-20191023-WA0017.jpg');
 
-    background-position: 48% 30%;
+   
 
 }
 .bannervid {
@@ -255,8 +255,7 @@ video {
 }
 /* More info */
 footer {
-	background-color: #FFFFFF;
-	padding-bottom: 35px;
+    padding-bottom: 35px;
 }
 .footer_column {
 	width: 50%;
@@ -269,8 +268,7 @@ footer .footer_column h3 {
 	text-align: center;
 }
 footer .footer_column p {
-	color: #717070;
-	background-color: #FFFFFF;
+    color: #717070;
 }
 .cards {
 	width: 100%;
@@ -325,11 +323,8 @@ footer .footer_column p {
     border-top-width: 2px;
 }
 .footer_banner {
-    background-color: #B3B3B3;
     padding-top: 40px;
     padding-bottom: 75PX;
-    background-image: url(../images/pattern.png);
-    background-repeat: repeat;
 }
 footer {
 	display: inline-block;
@@ -590,8 +585,12 @@ li{
 h5 {
     font-size: 52px;
     color: #fff;
-	z-index: 100; 
+    z-index: 100;
+    text-shadow: 3px 0px rgba(0,79,3,1.00);
 }
 h2 {
-	color: #00A541;
+    color: #04692C;
 }
+ /* css for cards */
+
+
