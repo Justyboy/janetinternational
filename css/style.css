@@ -25,11 +25,10 @@ body {
 /* Navigation */
 header {
     width: 100%;
-    height: 5%;
+    height: 6%;
     padding-bottom: 5px;
     padding-top: 5px;
-    background: #000;
-    opacity: .65;
+	background-color: rgba(0,0,0,0.70);
 }
 
 header  ul li:hover{
@@ -41,19 +40,21 @@ header  ul li:hover{
     text-align: center;
     width: 31%;
     float: left;
-    margin-top: 15px;
+    margin-top: 18px;
     margin-right: 0;
     margin-left: 0;
     margin-bottom: 0;
     letter-spacing: 4px;
     display: block;
-	padding-left: 10px;
+    padding-left: 10px;
+    font-size: 22px;
 }
 nav {
-	float: right;
-	width: 50%;
-	text-align: right;
-	margin-right: 20px;
+    float: right;
+    width: 50%;
+    text-align: right;
+    margin-right: 20px;
+    padding-top: 8px;
 }
 header nav ul {
 	list-style: none;
@@ -103,7 +104,7 @@ ul li:hover a {
     letter-spacing: 1px;
     font-weight: 800;
     width: 100%;
-    font-size: large;
+    font-size: 38px;
     margin-right: auto;
     margin-left: 0px;
     padding-top: 0px;
@@ -123,6 +124,7 @@ ul li:hover a {
     padding-bottom: 0px;
     margin-left: 10px;
     margin-right: 10px;
+    font-size: 18px;
 }
 .about {
     padding-left: 25px;
@@ -176,13 +178,14 @@ ul li:hover a {
 }
 /* Parallax Section */
 .banner {
-    background-image: url("../images/IMG-20191023-WA0017.jpg");
     height: 600px;
     background-attachment: fixed;
     background-size: cover;
     background-repeat: no-repeat;
-    opacity: 1.2;
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('../images/IMG-20191023-WA0017.jpg');
+
     background-position: 48% 30%;
+
 }
 .bannervid {
     height: 500px;
@@ -197,12 +200,11 @@ video {
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 5px;
-    width: 40%;
-    height: 75%;
 }
 
 .banner2 {
-    background-image: url(../images/IMG-20191023-WA0009.jpg);
+	background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('../images/IMG-20191023-WA0009.jpg');
+   
     height: 500px;
     background-attachment: fixed;
     background-size: cover;
@@ -211,7 +213,7 @@ video {
 }
 .banner3 {
 
-	background-image: url("../images/IMG-20191023-WA0012.jpg");
+	background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("../images/IMG-20191023-WA0012.jpg");
 	height: 500px;
 	background-attachment: fixed;
 	background-size: cover;
@@ -585,7 +587,10 @@ li{
 .text {
 }
 
-h2 {
-	font-size: 38px; 
-	color: #fff; 
+h5 {
+    font-size: 52px;
+    color: #fff;
+	z-index: 100; 
 }
+
+
