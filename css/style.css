@@ -25,10 +25,10 @@ body {
 header {
     width: 100%;
     height: 55px;
-    padding-bottom: 5px;
+    padding-bottom: 20px;
     padding-top: 5px;
     background-color: rgba(58,58,58,0.63);
-	position: fixed;
+    position: fixed;
 }
 
 header  ul li:hover{
@@ -112,12 +112,12 @@ ul li:hover a {
     padding-top: 0px;
     padding-left: auto;
     padding-right: auto;
-    margin-top: -415px;
+    margin-top: -381px;
 }
 /* About Section */
 .text_column {
     width: 96%;
-    text-align: justify;
+    text-align: left;
     line-height: 30px;
     float: left;
 	padding-left: 20px
@@ -127,7 +127,10 @@ ul li:hover a {
     margin-left: auto;
     margin-right: auto;
     font-size: 18px;
-    padding-left: 30px;
+    margin-top: 20px;
+    margin-bottom: 60px;
+    padding-left: 4em;
+    padding-right: 4em;
 }
 .about {
     padding-left: 25px;
@@ -182,16 +185,53 @@ ul li:hover a {
 .banner {
 	background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('../images/IMG-20191023-WA0012.jpg');
    
-    height: 600px;
+    height: 500px;
     background-attachment: fixed;
     background-size: cover;
     background-repeat: no-repeat;
 	background-position: bottom;
     margin-top: 0;
-
-   
+	
 
 }
+
+.banner h5 {
+	animation-name: slideLeft; 
+	animation-duration: 3s; 
+	animation-timing-function: ease-out; 
+}
+
+@keyframes slideLeft{
+	0% {
+		opacity: 0; 
+		transform: translateX(-50px); 
+	} 
+	
+	100% {
+		opacity: 1;
+		transform: translateX(0);
+	}
+}
+
+@keyframes slideRight{
+	0% {
+		opacity: 0; 
+		transform: translateX(50px); 
+	} 
+	
+	100% {
+		opacity: 1;
+		transform: translateX(0);
+	}
+}
+
+.banner2 .tagline {
+	animation-name: slideRight; 
+	animation-duration: 3s; 
+	animation-timing-function: ease-out; 
+}
+}
+
 .bannervid {
     background-attachment: fixed;
     background-size: cover;
@@ -277,7 +317,7 @@ footer .footer_column p {
 .cards {
     width: 100%;
     height: auto;
-    max-width: 475px;
+    max-width: 500px;
     max-height: 250px;
 }
 footer .footer_column p {
@@ -453,7 +493,7 @@ nav ul li {
     overflow: auto;
     display: inline-block;
     background: #000;
-    opacity: 0.45;
+    opacity: 0.35;
     padding-top: 20px;
 }
 
@@ -597,6 +637,7 @@ h5 {
 }
 h2 {
     color: #04692C;
+    font-size: 30px;
 }
  /* css for cards */
 
