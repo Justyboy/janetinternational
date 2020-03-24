@@ -24,10 +24,11 @@ body {
 /* Navigation */
 header {
     width: 100%;
-    height: 6%;
+    height: 55px;
     padding-bottom: 5px;
     padding-top: 5px;
     background-color: rgba(58,58,58,0.63);
+	position: fixed;
 }
 
 header  ul li:hover{
@@ -55,6 +56,7 @@ nav {
     text-align: right;
     margin-right: 20px;
     padding-top: 8px;
+	
 }
 header nav ul {
 	list-style: none;
@@ -178,11 +180,14 @@ ul li:hover a {
 }
 /* Parallax Section */
 .banner {
+	background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('../images/IMG-20191023-WA0012.jpg');
+   
     height: 600px;
     background-attachment: fixed;
     background-size: cover;
     background-repeat: no-repeat;
-    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('../images/IMG-20191023-WA0017.jpg');
+	background-position: bottom;
+    margin-top: 0;
 
    
 
@@ -192,15 +197,15 @@ ul li:hover a {
     background-size: cover;
     background-repeat: no-repeat;
     margin-top: 10px;
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: 30px;
+    margin-right: 30px;
 }
 
 video {
     margin-bottom: 5px;
-    width: 99%;
-    margin-top: 52px;
+    margin-top: 12px;
     padding-top: 16px;
+    min-height: 76%;
 }
 
 .banner2 {
@@ -448,7 +453,7 @@ nav ul li {
     overflow: auto;
     display: inline-block;
     background: #000;
-    opacity: 0.65;
+    opacity: 0.45;
     padding-top: 20px;
 }
 
@@ -539,8 +544,8 @@ nav ul li {
 }
 }
 
-/* Small Desktops */
-@media (min-width: 768px) and (max-width: 1096px) {
+/* Small Desktops 
+@media ( min-width : 768px ) and (max-width : 966px ){
 .text_column {
 	width: 100%;
 }
@@ -554,11 +559,13 @@ nav ul li {
     margin-top: -74px;
     padding-top: 0px;
 }
-	
+	header {
+		display: inline-block;
+	}
 	
 	
 }
-
+*/
 
 .socialmedia {
     justify-content: center;
